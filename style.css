@@ -23,7 +23,7 @@ body{
 #toggle{
     position: relative;
     width: 20px;
-    opacity: 1;
+    opacity: 0;
     cursor: pointer;
     z-index: 1;
     display: none;
@@ -59,6 +59,7 @@ body{
 }
 
 @media(max-width:800px){
+    
     /* .subcontainer{
         flex-direction: column;
     } */
@@ -78,3 +79,4 @@ body{
         display: block;
     }
 }
+
